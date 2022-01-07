@@ -12,7 +12,9 @@ export default class SignUp extends Component {
             address: '',
             phone: '',
             role: '',
+            x:'',
         }
+        
     }
     render() {
         const handleSubmit = async (e) => {
