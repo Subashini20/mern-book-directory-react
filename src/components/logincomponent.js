@@ -56,8 +56,8 @@ export default class Login extends Component {
             <>
             <div className='signin'>
             <div className='App'>
-              <h1 style={{ padding: "20px", textAlign: "center",color: 'purple', textShadow: ' 2px 2px #414345'  }}><b>Enhance your Knowledge=>E-books library </b></h1>
-              <pre><center><marquee behavior="scroll" direction="right"><b><i>“Happy learning! Have a great day”</i></b></marquee></center></pre> </div>
+              <h1 style={{ padding: "10px", textAlign: "center",color: 'purple', textShadow: ' 2px 2px #414345'  }}><b>Enhance your Knowledge=>E-books library </b></h1>
+              <pre><center><marquee behavior="scroll" direction="right"><b style={{fontSize:"20px"}}><i>“Happy learning! Have a great day”</i></b></marquee></center></pre> </div>
             </div>
             <div className="App" style={{padding:"10%"}}>
                 <div className="auth-wrapper">
