@@ -58,7 +58,7 @@ export default class Login extends Component {
             <div className='App'>
               <h1 style={{ padding: "10px", textAlign: "center",color: 'purple', textShadow: ' 2px 2px #414345'  }}><b>Enhance your Knowledge=>E-books library </b></h1>
               <pre><center><marquee behavior="scroll" direction="right"><b style={{fontSize:"20px"}}><i>“Happy learning! Have a great day”</i></b></marquee></center></pre> </div>
-            </div>
+         
             <div className="App" style={{padding:"10%"}}>
                 <div className="auth-wrapper">
                     <div className="auth-inner">
@@ -92,12 +92,13 @@ export default class Login extends Component {
                 </p>
                 <p>
                     Not a registered user?
-                    <Button href="sign-up">Signup</Button>
+                    <Button onClick=props.history.push("/sign-up")>Signup</Button>
                 </p>
             </form>
             </div>
             </div>
             </div>
+</div>
         </>
         );
     }
