@@ -56,10 +56,10 @@ export default class Login extends Component {
             <>
             <div className='signin'>
             <div className='App'>
-              <h1 style={{ padding: "10px", textAlign: "center",color: 'white', textShadow: ' 2px 2px #414345'  }}><b>Enhance your Knowledge=>E-books library </b></h1>
+              <h1 style={{ padding: "10px", textAlign: "center",color: 'white', textShadow: ' 2px 2px #000000'  }}><b>Enhance your Knowledge=>E-books library </b></h1>
               <pre><center><marquee behavior="scroll" direction="right"><b style={{fontSize:"20px",color:"white"}}><i>“Happy learning! Have a great day”</i></b></marquee></center></pre> </div>
          
-            <div className="App" style={{padding:"10%"}}>
+            <div className="App" style={{padding:"5%"}}>
                 <div className="auth-wrapper">
                     <div className="auth-inner">
             <form onSubmit={(e) => handleSubmit(e)}>
@@ -98,6 +98,10 @@ export default class Login extends Component {
             </div>
             </div>
             </div>
+              <p style={{fontSize:"15px",color:"white"}}>Content Disclaimer</p>
+             <p style=color:"white";fontSize: "12px">Content of this website is mostly copied from the<span style="color:blue">wikipedia,BiographyBD,Thefamouspeople</span><br/>Orginal credits goes to the respective authors</p>
+                
+
 </div>
         </>
         );
