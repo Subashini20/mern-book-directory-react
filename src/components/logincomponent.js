@@ -98,9 +98,10 @@ export default class Login extends Component {
             </div>
             </div>
             </div>
+          <footer>
               <p style={{fontSize:"15px",color:"white"}}>Content Disclaimer</p>
-             <p style=color:"white";fontSize: "12px">Content of this website is mostly copied from the<span style="color:blue">wikipedia,BiographyBD,Thefamouspeople</span><br/>Orginal credits goes to the respective authors</p>
-                
+             <p style=color:"white";fontSize: "12px">Content of this website is mostly copied from the wikipedia,BiographyBD,Thefamouspeople<br/>Orginal credits goes to the respective authors</p>
+          </footer>
 
 </div>
         </>
