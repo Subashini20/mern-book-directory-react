@@ -56,8 +56,8 @@ export default class Login extends Component {
             <>
             <div className='signin'>
             <div className='App'>
-              <h1 style={{ padding: "10px", textAlign: "center",color: 'white', textShadow: ' 2px 2px #000000'  }}><b><em>Enhance your Knowledge!! E-books library</em> </b></h1>
-              <pre><center><marquee behavior="scroll" direction="right"><b style={{fontSize:"20px",color:"white"}}><i>“Happy learning! Have a great day”</i></b></marquee></center></pre> </div>
+              <h1 style={{ padding: "10px", textAlign: "center",color: 'white', textShadow: ' 2px 2px #000000'  }}><b><em>Fabulous Opportunity to enhance your Knowledge!! E-books library-free books online😀</em> </b></h1>
+              <pre><center><marquee behavior="scroll" direction="right"><b style={{fontSize:"20px",color:"white"}}><i>“😍Happy learning! Have a great day😍”</i></b></marquee></center></pre> </div>
          
             <div className="App" style={{padding:"2%"}}>
                 <div className="auth-wrapper">
@@ -100,8 +100,7 @@ export default class Login extends Component {
             </div>
          </div>
           <footer>
-              <p style={{fontSize:"15px",color:"black"}}>Content Disclaimer</p>
-             <p style={{color:"black",fontSize: "12px"}}>Books were written by concerned authors,orginal credits goes to the respective authors</p>
+              <marquee behavior="scroll" direction="left"><p style={{fontSize:"20px",color:"red"}}>Content Disclaimer:Books were written by concerned authors,orginal credits goes to the respective authors</p></marquee>
           </footer>
         </>
         );
