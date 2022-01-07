@@ -67,6 +67,7 @@ export default class SignUp extends Component {
         }
 
             return (
+                <div className="signup">
                 <div className="App" style={{ padding: "5%" }}>
                     <div className="auth-wrapper">
                         <div className="auth-inner" style={{ padding: "1%" }}>
@@ -115,6 +116,7 @@ export default class SignUp extends Component {
                         </div>
                     </div>
                 </div>
+</div>
             );
         }
     }
