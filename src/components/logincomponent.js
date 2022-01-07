@@ -56,7 +56,7 @@ export default class Login extends Component {
             <>
             <div className='signin'>
             <div className='App'>
-              <h1 style={{ padding: "10px", textAlign: "center",color: 'white', textShadow: ' 2px 2px #000000'  }}><b><em>Fabulous Opportunity to enhance your Knowledge!! E-books library-free books online😀</em> </b></h1>
+              <h3 style={{ padding: "10px", textAlign: "center",color: 'white', textShadow: ' 2px 2px #000000'  }}><b>Fabulous Opportunity to enhance your Knowledge!! E-books library-free books online😀 </b></h3>
               <pre><center><marquee behavior="scroll" direction="right"><b style={{fontSize:"20px",color:"white"}}><i>“😍Happy learning! Have a great day😍”</i></b></marquee></center></pre> </div>
          
             <div className="App" style={{padding:"2%"}}>
@@ -75,8 +75,8 @@ export default class Login extends Component {
                     <input type="password" className="form-control" placeholder="Enter password" required value={this.state.password} onChange={(e)=> this.setState({password: e.target.value})}/><br></br>
                 </div>
                 <div className="form-group">
-                                <label>Role</label><br></br>
-                                <input type="text" className="form-control" placeholder="Role" required value={this.state.role} onChange={(e)=> this.setState({role: e.target.value})} />
+                                <label>Accessed By</label><br></br>
+                                <input type="text" className="form-control" placeholder="Exple:admin or user" required value={this.state.role} onChange={(e)=> this.setState({role: e.target.value})} />
                             </div><br></br>
 
                 <div className="form-group">
