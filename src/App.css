@@ -115,6 +115,9 @@ body, html, .App, #root, .auth-wrapper {
 .forgot-password a {
   color: #167bff;
 }
+.signin{
+  background-image: url('https://images.unsplash.com/photo-1537202108838-e7072bad1927?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZGlnaXRhbCUyMGxpYnJhcnl8ZW58MHx8MHx8&w=1000&q=80')
+}
 
 .dubaipic{
   background-repeat: no-repeat;
