@@ -56,10 +56,10 @@ export default class Login extends Component {
             <>
             <div className='signin'>
             <div className='App'>
-              <h1 style={{ padding: "10px", textAlign: "center",color: 'white', textShadow: ' 2px 2px #000000'  }}><b><em>Enhance your Knowledge!!!E-books library</em> </b></h1>
+              <h1 style={{ padding: "10px", textAlign: "center",color: 'white', textShadow: ' 2px 2px #000000'  }}><b><em>Enhance your Knowledge!! E-books library</em> </b></h1>
               <pre><center><marquee behavior="scroll" direction="right"><b style={{fontSize:"20px",color:"white"}}><i>“Happy learning! Have a great day”</i></b></marquee></center></pre> </div>
          
-            <div className="App" style={{padding:"5%"}}>
+            <div className="App" style={{padding:"2%"}}>
                 <div className="auth-wrapper">
                     <div className="auth-inner">
             <form onSubmit={(e) => handleSubmit(e)}>
@@ -100,8 +100,8 @@ export default class Login extends Component {
             </div>
          </div>
           <footer>
-              <p style={{fontSize:"15px",color:"white"}}>Content Disclaimer</p>
-             <p style={{color:"white",fontSize: "12px"}}>Books were written by concerned authors,orginal credits goes to the respective authors</p>
+              <p style={{fontSize:"15px",color:"black"}}>Content Disclaimer</p>
+             <p style={{color:"black",fontSize: "12px"}}>Books were written by concerned authors,orginal credits goes to the respective authors</p>
           </footer>
         </>
         );
