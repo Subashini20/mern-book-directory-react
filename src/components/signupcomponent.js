@@ -92,7 +92,7 @@ export default class SignUp extends Component {
 
                                 <div className="form-group">
                                     <label>Address</label><br></br>
-                                    <input type="text" className="form-control" placeholder="EnterAddress" minLength={5} maxLength={50} required value={this.state.address} onChange={(e) => this.setState({ address: e.target.value })} />
+                                    <input type="text" className="form-control" placeholder="please enter Chennai or Hyderabad" minLength={5} maxLength={50} required value={this.state.address} onChange={(e) => this.setState({ address: e.target.value })} />
                                 </div><br></br>
 
                                 <div className="form-group">
