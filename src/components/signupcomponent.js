@@ -36,7 +36,7 @@ export default class SignUp extends Component {
                          {
                                 await localStorage.setItem('token',response.data);
                                 console.log("success");
-                                this.props.history.push('/sign-in');
+                                this.props.history.push('/');
                         }
                  } catch (err) {
                     console.warn(err)
