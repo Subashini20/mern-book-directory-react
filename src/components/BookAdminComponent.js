@@ -79,8 +79,8 @@ function BookAdminComponent(props) {
                     ))}
                 </Grid><br/>
                 <div className='App'>
-                <Button variant="contained" onClick={(e)=> props.history.push('/createbook')}>ADD</Button>&nbsp;
-                <Button variant="contained" onClick={(e)=> props.history.push('/deletebook')}>Delete</Button>
+                <Button variant="contained" onClick={(e)=> props.history.push('/createbook')}>Upload new book</Button>&nbsp;
+               
                 </div>
             </div>
         </>
