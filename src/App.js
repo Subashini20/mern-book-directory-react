@@ -9,7 +9,6 @@ import SignUp from "./components/signupcomponent";
 import Book from "./components/BookComponent";
 import BookAdmin from "./components/BookAdminComponent";
 import AddBook from "./components/AddBookComponent";
-import DeleteBook from "./components/DeleteBookComponent";
 function App() {
   return (
     <>
@@ -22,7 +21,7 @@ function App() {
             <Route exact path="/book" component={Book}/>
             <Route exact path="/bookAdmin" component={BookAdmin}/>
             <Route exact path="/createbook" component={AddBook}/>
-            <Route exact path="/deletebook" component={DeleteBook}/>
+            
           </Switch>
         </BrowserRouter>
       </div>
